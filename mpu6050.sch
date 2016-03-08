@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:stm32f4_lqfp64_mpu6050-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,12 +31,14 @@ LIBS:contrib
 LIBS:valves
 LIBS:minimal
 LIBS:alis_parts
+LIBS:sensors
+LIBS:stm32
 LIBS:stm32f4_lqfp64_mpu6050-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 10
 Title ""
 Date ""
 Rev ""
@@ -54,8 +57,6 @@ Connection ~ 5050 4450
 Wire Wire Line
 	5050 3650 5050 4450
 Wire Wire Line
-	5250 2500 5250 4150
-Wire Wire Line
 	5800 4050 4900 4050
 Wire Wire Line
 	4900 4350 4900 4450
@@ -63,18 +64,14 @@ Connection ~ 4900 4450
 Wire Wire Line
 	4700 3450 4700 4450
 Connection ~ 5250 4450
-Connection ~ 5250 3750
 Connection ~ 5450 4450
 Wire Wire Line
-	4700 4450 5450 4450
-Connection ~ 5250 3150
+	4400 4450 5450 4450
 Wire Wire Line
 	4700 3150 5800 3150
 Wire Wire Line
-	5800 3750 5250 3750
+	4400 3750 5800 3750
 Connection ~ 5450 3850
-Wire Wire Line
-	5800 3850 5450 3850
 Wire Wire Line
 	5450 2750 5450 4500
 Wire Wire Line
@@ -124,17 +121,17 @@ F 3 "" H 4900 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR22
+L GND #PWR30
 U 1 1 569B8F29
 P 5450 4500
-F 0 "#PWR22" H 5450 4250 50  0001 C CNN
+F 0 "#PWR30" H 5450 4250 50  0001 C CNN
 F 1 "GND" H 5458 4326 50  0000 C CNN
 F 2 "" H 5450 4500 50  0000 C CNN
 F 3 "" H 5450 4500 50  0000 C CNN
 	1    5450 4500
 	1    0    0    -1  
 $EndComp
-Text GLabel 5250 2500 0    60   Input ~ 0
+Text GLabel 4700 3150 0    60   Input ~ 0
 VCC
 Text GLabel 5800 4150 0    60   Input ~ 0
 SCL
@@ -151,4 +148,27 @@ F 3 "" H 6450 3300 60  0000 C CNN
 	1    6500 3500
 	1    0    0    -1  
 $EndComp
+$Comp
+L C C29
+U 1 1 569B8FE4
+P 4400 4000
+F 0 "C29" H 4515 4046 50  0000 L CNN
+F 1 "4.7u" H 4515 3954 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4438 3850 50  0001 C CNN
+F 3 "" H 4400 4000 50  0000 C CNN
+	1    4400 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4150 4400 4450
+Connection ~ 4700 4450
+Wire Wire Line
+	5800 3850 5450 3850
+Wire Wire Line
+	4400 3750 4400 3850
+Text GLabel 4400 3750 0    60   Input ~ 0
+VCC_SEN
+Wire Wire Line
+	5250 4150 5250 3750
+Connection ~ 5250 3750
 $EndSCHEMATC

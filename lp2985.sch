@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:stm32f4_lqfp64_mpu6050-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,12 +31,14 @@ LIBS:contrib
 LIBS:valves
 LIBS:minimal
 LIBS:alis_parts
+LIBS:sensors
+LIBS:stm32
 LIBS:stm32f4_lqfp64_mpu6050-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -79,7 +82,7 @@ U 1 1 569BA85A
 P 5050 3050
 F 0 "D2" V 5096 2982 50  0000 R CNN
 F 1 "D_Schottky_Small" V 5004 2982 50  0000 R CNN
-F 2 "Diodes_SMD:SMA_Standard" V 5050 3050 50  0001 C CNN
+F 2 "Diodes_SMD:SOD-323" V 5050 3050 50  0001 C CNN
 F 3 "" V 5050 3050 50  0000 C CNN
 	1    5050 3050
 	0    -1   -1   0   
@@ -90,7 +93,7 @@ U 1 1 569BA861
 P 4700 3050
 F 0 "D1" V 4746 2982 50  0000 R CNN
 F 1 "D_Schottky_Small" V 4654 2982 50  0000 R CNN
-F 2 "Diodes_SMD:SMA_Standard" V 4700 3050 50  0001 C CNN
+F 2 "Diodes_SMD:SOD-323" V 4700 3050 50  0001 C CNN
 F 3 "" V 4700 3050 50  0000 C CNN
 	1    4700 3050
 	0    -1   -1   0   
@@ -135,10 +138,10 @@ F 3 "" H 6800 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR23
+L GND #PWR24
 U 1 1 569BA880
 P 6000 4350
-F 0 "#PWR23" H 6000 4100 50  0001 C CNN
+F 0 "#PWR24" H 6000 4100 50  0001 C CNN
 F 1 "GND" H 6008 4176 50  0000 C CNN
 F 2 "" H 6000 4350 50  0000 C CNN
 F 3 "" H 6000 4350 50  0000 C CNN

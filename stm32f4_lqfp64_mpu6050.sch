@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:stm32f4_lqfp64_mpu6050-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,12 +31,14 @@ LIBS:contrib
 LIBS:valves
 LIBS:minimal
 LIBS:alis_parts
+LIBS:sensors
+LIBS:stm32
 LIBS:stm32f4_lqfp64_mpu6050-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -80,5 +83,23 @@ S 2800 1750 850  700
 U 5698349A
 F0 "ublox_neo7" 60
 F1 "ublox_neo7.sch" 60
+$EndSheet
+$Sheet
+S 3800 700  850  700 
+U 5698CFC3
+F0 "hmc5884l" 60
+F1 "hmc5883l.sch" 60
+$EndSheet
+$Sheet
+S 3800 1750 850  700 
+U 569B6D4A
+F0 "bmp180" 60
+F1 "bmp180.sch" 60
+$EndSheet
+$Sheet
+S 4800 700  850  700 
+U 569F55FA
+F0 "mic5205" 60
+F1 "mic5205.sch" 60
 $EndSheet
 $EndSCHEMATC

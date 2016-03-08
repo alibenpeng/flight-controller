@@ -1,0 +1,144 @@
+EESchema-LIBRARY Version 2.3  02/12/2015-22:26:18
+# Converted with eagle2kicad.ulp Version 1.1
+# Device count = 2
+#
+# DEVSET Name: 74*1G86
+# Dev Prefix: IC
+# Gate count = 2
+#
+DEF IC_74*1G86 IC 0 1 N Y 2 L N
+# Gate Name: A
+# Symbol Name: 7486
+F0 "IC" -100 225 50 H V L B
+F1 "74*1G86" -100 -300 50 H V L B
+F2 "74xx-little-de-SOT23-5" 0 150 50 H I C C
+DRAW
+A -100 0 200 -899 899 1 1 0 N -100 -200 -100 200
+P 2 1 0 0 70 100 -100 100 N
+P 2 1 0 0 70 -100 -100 -100 N
+P 2 1 0 0 -100 200 -100 -200 N
+T 0 -40 -40 100 0 1 0 e N 0 L B
+X I0 1 -200 100 100 R 40 40 1 1 I 
+X I1 2 -200 -100 100 R 40 40 1 1 I 
+X O 4 200 0 100 L 40 40 1 1 O 
+# Gate Name: P
+# Symbol Name: PWRN
+X GND 3 0 -300 200 U 40 40 2 1 W 
+X VCC 5 0 300 200 D 40 40 2 1 W 
+ENDDRAW
+ENDDEF
+# Device count = 164
+#
+# DEVSET Name: C-EU
+# Dev Prefix: C
+# Gate count = 1
+#
+DEF C_C-EU C 0 1 N N 1 L N
+# Gate Name: G$1
+# Symbol Name: C-EU
+F0 "C" 60 15 50 H V L B
+F1 "C-EU" 60 -185 50 H V L B
+F2 "Alis custom parts-C025-024X044" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 0 0 0 -20 N
+P 2 1 0 0 0 -100 0 -80 N
+S -80 -80 80 -60 1 1 0 F
+S -80 -40 80 -20 1 1 0 F
+X 1 1 0 100 100 D 40 40 1 1 P 
+X 2 2 0 -200 100 U 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+#
+# DEVSET Name: POWERPADS
+# Dev Prefix: 
+# Gate count = 1
+#
+DEF Alis custom parts_POWERPADS Alis custom parts 0 1 N Y 1 L N
+# Gate Name: G$1
+# Symbol Name: POWERPADS
+DRAW
+X P$1 1 0 300 200 D 40 40 1 1 B 
+X P$2 2 0 -200 200 U 40 40 1 1 B 
+ENDDRAW
+ENDDEF
+#
+# DEVSET Name: R-EU_
+# Dev Prefix: R
+# Gate count = 1
+#
+DEF R_R-EU_ R 0 1 N N 1 L N
+# Gate Name: G$1
+# Symbol Name: R-EU
+F0 "R" -150 59 50 H V L B
+F1 "R-EU_" -150 -130 50 H V L B
+F2 "Alis custom parts-0204V" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 35 -100 35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 -100 -35 -100 35 N
+X 1 1 -200 0 100 R 40 40 1 1 P 
+X 2 2 200 0 100 L 40 40 1 1 P 
+ENDDRAW
+ENDDEF
+# Device count = 1
+#
+# DEVSET Name: GND
+# Dev Prefix: GND
+# Gate count = 1
+#
+DEF GND_GND GND 0 1 N N 1 L N
+# Gate Name: 1
+# Symbol Name: DGND
+F0 "GND" 0 0 50 H V L B
+F1 "GND" -100 -100 50 H V L B
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND ~ 0 100 100 D 40 40 1 1 w 
+ENDDRAW
+ENDDEF
+# Device count = 17
+#
+# DEVSET Name: USB
+# Dev Prefix: JP
+# Gate count = 1
+#
+DEF JP_USB JP 0 1 N Y 1 L N
+# Gate Name: G$1
+# Symbol Name: USB
+F0 "JP" 0 375 50 H V L B
+F1 "USB" 0 -150 50 H V L B
+F2 "SparkFun-Connectors-USB-A-H" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 200 350 0 350 N
+P 2 1 0 0 0 350 0 -50 N
+P 2 1 0 0 0 -50 200 -50 N
+T 900 0 115 100 0 1 0 USB N 0 L B
+X D+ D+ -100 300 100 R 40 40 1 1 B 
+X D- D- -100 200 100 R 40 40 1 1 B 
+X GND GND -100 0 100 R 40 40 1 1 B 
+X VBUS VBUS -100 100 100 R 40 40 1 1 B 
+ENDDRAW
+ENDDEF
+# Device count = 1
+#
+# DEVSET Name: LSM9DS0
+# Dev Prefix: U
+# Gate count = 1
+#
+DEF U_LSM9DS0 U 0 1 N Y 1 L N
+# Gate Name: G$1
+# Symbol Name: LSM9DS0
+F0 "U" 0 0 50 H V C C
+F1 "LSM9DS0" 0 0 50 H V C C
+F2 "SparkFun-DigitalIC-LGA-24" 0 150 50 H I C C
+DRAW
+P 2 1 0 0 -500 700 -500 -700 N
+P 2 1 0 0 -500 -700 500 -700 N
+P 2 1 0 0 500 -700 500 700 N
+P 2 1 0 0 500 700 -500 700 N
+X C1 7 -600 -300 100 R 40 40 1 1 B 
+X CS(G) 19 600 100 100 L 40 40 1 1 B 
+X CS(XM) 20 600 300 100 L 40 40 1 1 B 
+X DEN(G) 10 600 -600 100 L 40 40 1 1 B 
+X DRDY(G) 12 600 -400 100 L 40 40 1 1 B 
