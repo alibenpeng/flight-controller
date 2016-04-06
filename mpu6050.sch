@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:minimal
 LIBS:alis_parts
 LIBS:stm32f4_lqfp64_mpu6050-cache
 EELAYER 25 0
@@ -124,10 +123,10 @@ F 3 "" H 4900 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR22
+L GND #PWR021
 U 1 1 569B8F29
 P 5450 4500
-F 0 "#PWR22" H 5450 4250 50  0001 C CNN
+F 0 "#PWR021" H 5450 4250 50  0001 C CNN
 F 1 "GND" H 5458 4326 50  0000 C CNN
 F 2 "" H 5450 4500 50  0000 C CNN
 F 3 "" H 5450 4500 50  0000 C CNN
@@ -151,4 +150,6 @@ F 3 "" H 6450 3300 60  0000 C CNN
 	1    6500 3500
 	1    0    0    -1  
 $EndComp
+Text GLabel 5800 3550 0    60   Input ~ 0
+IMU_INT
 $EndSCHEMATC

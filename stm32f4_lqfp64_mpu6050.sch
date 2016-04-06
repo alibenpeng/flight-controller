@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:minimal
 LIBS:alis_parts
 LIBS:stm32f4_lqfp64_mpu6050-cache
 EELAYER 25 0
