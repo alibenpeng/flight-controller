@@ -702,4 +702,22 @@ Wire Wire Line
 Connection ~ 7050 1600
 Wire Wire Line
 	7050 1950 7050 2100
+$Comp
+L R R?
+U 1 1 57056D51
+P 3150 2200
+F 0 "R?" V 2942 2200 50  0000 C CNN
+F 1 "10k" V 3034 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3080 2200 50  0001 C CNN
+F 3 "" H 3150 2200 50  0000 C CNN
+	1    3150 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 2200 3400 2200
+Wire Wire Line
+	3400 2200 3400 2000
+Connection ~ 3400 2000
+Text GLabel 3000 2200 0    60   Input ~ 0
+USB_SENSE
 $EndSCHEMATC

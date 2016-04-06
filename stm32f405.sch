@@ -524,4 +524,8 @@ Wire Wire Line
 Wire Wire Line
 	6650 1600 6650 750 
 Connection ~ 6650 750 
+Text GLabel 9050 4700 2    60   Input ~ 0
+IMU_INT
+Text GLabel 2050 5200 0    60   Input ~ 0
+USB_SENSE
 $EndSCHEMATC

@@ -171,4 +171,6 @@ VCC_SEN
 Wire Wire Line
 	5250 4150 5250 3750
 Connection ~ 5250 3750
+Text GLabel 5800 3550 0    60   Input ~ 0
+IMU_INT
 $EndSCHEMATC
