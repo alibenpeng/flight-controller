@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -77,5 +77,11 @@ S 600  700  850  700
 U 56983383
 F0 "lp2985" 60
 F1 "lp2985.sch" 60
+$EndSheet
+$Sheet
+S 2800 1750 850  700 
+U 57069947
+F0 "osd" 60
+F1 "osd.sch" 60
 $EndSheet
 $EndSCHEMATC
