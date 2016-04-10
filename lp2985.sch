@@ -99,7 +99,7 @@ F 3 "" V 4700 3050 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 6800 3250 2    60   Input ~ 0
-VCC
+3.3V
 Text GLabel 4700 2950 0    60   Input ~ 0
 +5V_USB
 $Comp
@@ -125,7 +125,7 @@ F 3 "" H 4700 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5050 2950 2    60   Input ~ 0
-VCCEXT
+VBAT
 $Comp
 L C C19
 U 1 1 569BA879
@@ -138,10 +138,10 @@ F 3 "" H 6800 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR24
+L GND #PWR025
 U 1 1 569BA880
 P 6000 4350
-F 0 "#PWR24" H 6000 4100 50  0001 C CNN
+F 0 "#PWR025" H 6000 4100 50  0001 C CNN
 F 1 "GND" H 6008 4176 50  0000 C CNN
 F 2 "" H 6000 4350 50  0000 C CNN
 F 3 "" H 6000 4350 50  0000 C CNN

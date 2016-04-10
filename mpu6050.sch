@@ -121,10 +121,10 @@ F 3 "" H 4900 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR30
+L GND #PWR024
 U 1 1 569B8F29
 P 5450 4500
-F 0 "#PWR30" H 5450 4250 50  0001 C CNN
+F 0 "#PWR024" H 5450 4250 50  0001 C CNN
 F 1 "GND" H 5458 4326 50  0000 C CNN
 F 2 "" H 5450 4500 50  0000 C CNN
 F 3 "" H 5450 4500 50  0000 C CNN
@@ -132,7 +132,7 @@ F 3 "" H 5450 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4700 3150 0    60   Input ~ 0
-VCC
+3.3V
 Text GLabel 5800 4150 0    60   Input ~ 0
 SCL
 Text GLabel 5800 4250 0    60   Input ~ 0
@@ -167,7 +167,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 3750 4400 3850
 Text GLabel 4400 3750 0    60   Input ~ 0
-VCC_SEN
+3.3V_SEN
 Wire Wire Line
 	5250 4150 5250 3750
 Connection ~ 5250 3750

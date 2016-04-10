@@ -180,9 +180,9 @@ Connection ~ 7000 3950
 Text GLabel 5700 3150 1    60   Input ~ 0
 DRDY
 Text GLabel 5900 2650 2    60   Input ~ 0
-VCC
+3.3V
 Text GLabel 4350 3750 0    60   Input ~ 0
-VCC_SEN
+3.3V_SEN
 Wire Wire Line
 	5900 2650 5900 3150
 Wire Wire Line

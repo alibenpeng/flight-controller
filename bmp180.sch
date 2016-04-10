@@ -124,9 +124,9 @@ SDA
 Text GLabel 6700 3900 2    60   Input ~ 0
 SCL
 Text GLabel 4500 4100 0    60   Input ~ 0
-VCC
+3.3V
 Wire Wire Line
 	4500 4100 4500 4200
 Text GLabel 4500 3900 0    60   Input ~ 0
-VCC_SEN
+3.3V_SEN
 $EndSCHEMATC

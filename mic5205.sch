@@ -132,9 +132,9 @@ $EndComp
 Wire Wire Line
 	4750 3800 4750 4300
 Text GLabel 7100 3500 2    60   Input ~ 0
-VCC_SEN
+3.3V_SEN
 Text GLabel 4750 3500 0    60   Input ~ 0
-VCCEXT
+VBAT
 $Comp
 L C C33
 U 1 1 569F8308

@@ -61,7 +61,7 @@ RX4
 Wire Wire Line
 	4500 4450 4700 4450
 Text GLabel 4500 4450 0    60   Input ~ 0
-VCC
+3.3V
 Connection ~ 4600 4650
 Wire Wire Line
 	4600 2250 4700 2250
@@ -142,7 +142,7 @@ $EndComp
 Wire Wire Line
 	4050 3950 4050 4250
 Text GLabel 3450 3950 0    60   Input ~ 0
-VCC
+3.3V
 $Comp
 L R R7
 U 1 1 569D5B11
