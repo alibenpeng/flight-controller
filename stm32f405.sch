@@ -48,26 +48,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 9050 3600 2    60   Input ~ 0
+Text GLabel 9050 5100 2    60   Input ~ 0
 SCK
-Text GLabel 9050 3500 2    60   Input ~ 0
-Flash
-Text GLabel 9050 3400 2    60   Input ~ 0
-RX3
-Text GLabel 9050 3300 2    60   Input ~ 0
-TX3
-Text GLabel 9050 3200 2    60   Input ~ 0
-PWM4
-Text GLabel 9050 3100 2    60   Input ~ 0
-PWM3
-Text GLabel 9050 3000 2    60   Input ~ 0
-RX1
+Text GLabel 2050 5700 0    60   Input ~ 0
+FLASH_CS
+Text GLabel 9050 4100 2    60   Input ~ 0
+ADC1
+Text GLabel 9050 3700 2    60   Input ~ 0
+TIM12_CH1
+Text GLabel 2050 4500 0    60   Input ~ 0
+TIM5_CH4
+Text GLabel 2050 4400 0    60   Input ~ 0
+TIM5_CH3
 Text GLabel 9050 2900 2    60   Input ~ 0
-TX1
-Text GLabel 9050 2400 2    60   Input ~ 0
-PWM1
-Text GLabel 9050 2300 2    60   Input ~ 0
-PWM2
+MAIN_TX
+Text GLabel 2050 4200 0    60   Input ~ 0
+TIM5_CH1
+Text GLabel 2050 4300 0    60   Input ~ 0
+TIM5_CH2
 $Comp
 L C C4
 U 1 1 569AE236
@@ -124,10 +122,10 @@ F 3 "" H 6900 900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L GND #PWR020
 U 1 1 569AE259
 P 5550 7400
-F 0 "#PWR016" H 5550 7150 50  0001 C CNN
+F 0 "#PWR020" H 5550 7150 50  0001 C CNN
 F 1 "GND" H 5558 7226 50  0000 C CNN
 F 2 "" H 5550 7400 50  0000 C CNN
 F 3 "" H 5550 7400 50  0000 C CNN
@@ -179,10 +177,10 @@ F 3 "" H 4000 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L GND #PWR021
 U 1 1 569AE27B
 P 4000 1650
-F 0 "#PWR017" H 4000 1400 50  0001 C CNN
+F 0 "#PWR021" H 4000 1400 50  0001 C CNN
 F 1 "GND" H 4008 1476 50  0000 C CNN
 F 2 "" H 4000 1650 50  0000 C CNN
 F 3 "" H 4000 1650 50  0000 C CNN
@@ -236,10 +234,10 @@ F 3 "" H 1150 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L GND #PWR022
 U 1 1 569AE29F
 P 1150 3000
-F 0 "#PWR018" H 1150 2750 50  0001 C CNN
+F 0 "#PWR022" H 1150 2750 50  0001 C CNN
 F 1 "GND" H 1158 2826 50  0000 C CNN
 F 2 "" H 1150 3000 50  0000 C CNN
 F 3 "" H 1150 3000 50  0000 C CNN
@@ -286,10 +284,10 @@ F 3 "" H 1400 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L GND #PWR023
 U 1 1 569AE2B7
 P 1400 2900
-F 0 "#PWR019" H 1400 2650 50  0001 C CNN
+F 0 "#PWR023" H 1400 2650 50  0001 C CNN
 F 1 "GND" H 1408 2726 50  0000 C CNN
 F 2 "" H 1400 2900 50  0000 C CNN
 F 3 "" H 1400 2900 50  0000 C CNN
@@ -297,10 +295,10 @@ F 3 "" H 1400 2900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L GND #PWR024
 U 1 1 569AE2BD
 P 1400 3250
-F 0 "#PWR020" H 1400 3000 50  0001 C CNN
+F 0 "#PWR024" H 1400 3000 50  0001 C CNN
 F 1 "GND" H 1408 3076 50  0000 C CNN
 F 2 "" H 1400 3250 50  0000 C CNN
 F 3 "" H 1400 3250 50  0000 C CNN
@@ -330,31 +328,31 @@ F 3 "" H 1950 3250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR021
+L GND #PWR025
 U 1 1 569AE2D1
 P 2200 3100
-F 0 "#PWR021" H 2200 2850 50  0001 C CNN
+F 0 "#PWR025" H 2200 2850 50  0001 C CNN
 F 1 "GND" H 2208 2926 50  0000 C CNN
 F 2 "" H 2200 3100 50  0000 C CNN
 F 3 "" H 2200 3100 50  0000 C CNN
 	1    2200 3100
 	1    0    0    -1  
 $EndComp
-Text GLabel 2050 3800 0    60   Input ~ 0
-RX5
-Text GLabel 2050 4400 0    60   Input ~ 0
-TX2/ADC123_IN2
-Text GLabel 2050 4500 0    60   Input ~ 0
-RX2/ADC123_IN3
-Text GLabel 2050 4600 0    60   Input ~ 0
-DAC
-Text GLabel 2050 4700 0    60   Input ~ 0
-SCK2
-Text GLabel 2050 4800 0    60   Input ~ 0
-MISO2
-Text GLabel 2050 4900 0    60   Input ~ 0
-MOSI2
-Text GLabel 2050 5000 0    60   Input ~ 0
+Text GLabel 9050 4800 2    60   Input ~ 0
+TIM8_CH2/FRSKY_RSSI/DSM
+Text GLabel 9050 4200 2    60   Input ~ 0
+ADC2
+Text GLabel 9050 4400 2    60   Input ~ 0
+ADC3
+Text GLabel 9050 5500 2    60   Input ~ 0
+SBUS_INV
+Text GLabel 9050 3300 2    60   Input ~ 0
+FLEXI_TX/SCL
+Text GLabel 9050 3000 2    60   Input ~ 0
+MAIN_RX/DSM
+Text GLabel 9050 3400 2    60   Input ~ 0
+FLEXI_RX/SDA/DSM
+Text GLabel 9050 3100 2    60   Input ~ 0
 SCL
 Text GLabel 2050 5300 0    60   Input ~ 0
 USBD_N
@@ -366,25 +364,25 @@ Text GLabel 2050 5600 0    60   Input ~ 0
 SWCLK
 Text GLabel 1150 2600 0    60   Input ~ 0
 /RESET
-Text GLabel 9050 5400 2    60   Input ~ 0
+Text GLabel 9000 6050 2    60   Input ~ 0
 MCU_BUZZER
-Text GLabel 9050 4200 2    60   Input ~ 0
-EXTI
-Text GLabel 9050 4300 2    60   Input ~ 0
-MISO
-Text GLabel 9050 4400 2    60   Input ~ 0
-MOSI
-Text GLabel 9050 5000 2    60   Input ~ 0
-SDA
-Text GLabel 9050 5100 2    60   Input ~ 0
-TX4
+Text GLabel 9050 3800 2    60   Input ~ 0
+TIM12_CH2
 Text GLabel 9050 5200 2    60   Input ~ 0
-RX4
+MISO
 Text GLabel 9050 5300 2    60   Input ~ 0
-TX5
-Text GLabel 2050 4200 0    60   Input ~ 0
+MOSI
+Text GLabel 9050 3200 2    60   Input ~ 0
+SDA
+Text GLabel 9050 4700 2    60   Input ~ 0
+TIM8_CH1
+Text GLabel 9050 5000 2    60   Input ~ 0
+TIM8_CH4
+Text GLabel 9050 4900 2    60   Input ~ 0
+TIM8_CH3
+Text GLabel 9050 3500 2    60   Input ~ 0
 LED_RED
-Text GLabel 2050 4300 0    60   Input ~ 0
+Text GLabel 2050 3800 0    60   Input ~ 0
 LED_BLUE
 $Comp
 L STM32F405R U1
@@ -432,10 +430,10 @@ Connection ~ 7300 750
 Wire Wire Line
 	4000 750  8500 750 
 $Comp
-L GND #PWR022
+L GND #PWR026
 U 1 1 569E1F9F
 P 1950 2400
-F 0 "#PWR022" H 1950 2150 50  0001 C CNN
+F 0 "#PWR026" H 1950 2150 50  0001 C CNN
 F 1 "GND" H 1958 2226 50  0000 C CNN
 F 2 "" H 1950 2400 50  0000 C CNN
 F 3 "" H 1950 2400 50  0000 C CNN
@@ -501,10 +499,10 @@ Connection ~ 5550 7250
 Connection ~ 6150 750 
 Connection ~ 6900 750 
 $Comp
-L GND #PWR023
+L GND #PWR027
 U 1 1 569E5F3D
 P 8500 1250
-F 0 "#PWR023" H 8500 1000 50  0001 C CNN
+F 0 "#PWR027" H 8500 1000 50  0001 C CNN
 F 1 "GND" H 8508 1076 50  0000 C CNN
 F 2 "" H 8500 1250 50  0000 C CNN
 F 3 "" H 8500 1250 50  0000 C CNN
@@ -516,8 +514,26 @@ Wire Wire Line
 Wire Wire Line
 	6650 1600 6650 750 
 Connection ~ 6650 750 
-Text GLabel 9050 4700 2    60   Input ~ 0
+Text GLabel 9050 5400 2    60   Input ~ 0
 IMU_INT
-Text GLabel 2050 5200 0    60   Input ~ 0
+Text GLabel 2050 5100 0    60   Input ~ 0
 USB_SENSE
+Text GLabel 9050 2600 2    60   Input ~ 0
+HSYNC_CAPT
+Text GLabel 9050 2700 2    60   Input ~ 0
+PIXEL_TIMER
+Text GLabel 9050 3600 2    60   Input ~ 0
+PIXEL_TIMER
+Text GLabel 2050 4700 0    60   Input ~ 0
+PIXEL_TIMER
+Text GLabel 9050 4300 2    60   Input ~ 0
+BW_LEVEL
+Text GLabel 2050 4800 0    60   Input ~ 0
+BW_MASK
+Text GLabel 2050 4900 0    60   Input ~ 0
+VSYNC_EXTI
+Text GLabel 2050 5000 0    60   Input ~ 0
+B_PWM
+Text GLabel 2050 5200 0    60   Input ~ 0
+W_PWM
 $EndSCHEMATC
