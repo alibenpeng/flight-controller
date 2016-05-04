@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -53,12 +53,6 @@ S 600  1750 850  700
 U 569801F2
 F0 "io" 60
 F1 "io.sch" 60
-$EndSheet
-$Sheet
-S 1700 1750 850  700 
-U 56980F2E
-F0 "motors" 60
-F1 "motors.sch" 60
 $EndSheet
 $Sheet
 S 1700 700  850  700 
@@ -83,5 +77,17 @@ S 2800 1750 850  700
 U 57069947
 F0 "osd" 60
 F1 "osd.sch" 60
+$EndSheet
+$Sheet
+S 1700 1750 850  700 
+U 56980F2E
+F0 "motors" 60
+F1 "motors.sch" 60
+$EndSheet
+$Sheet
+S 3900 1750 900  700 
+U 5729526E
+F0 "flash" 60
+F1 "flash.sch" 60
 $EndSheet
 $EndSCHEMATC
