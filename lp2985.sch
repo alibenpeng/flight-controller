@@ -74,8 +74,6 @@ Wire Wire Line
 Connection ~ 4700 3250
 Text GLabel 4700 3250 0    60   Input ~ 0
 reg_vin
-Text GLabel 5200 3750 0    60   Input ~ 0
-reg_bypass
 $Comp
 L D_Schottky_Small D9
 U 1 1 569BA85A
@@ -181,8 +179,6 @@ Wire Wire Line
 Connection ~ 7900 3250
 Text GLabel 7900 3250 0    60   Input ~ 0
 reg_vin
-Text GLabel 8400 3750 0    60   Input ~ 0
-reg_bypass
 Text GLabel 10000 3250 2    60   Input ~ 0
 3.3V_SEN
 $Comp
