@@ -118,9 +118,9 @@ F 3 "" H 7750 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4800 3600 0    60   Input ~ 0
-FLEXI_RX/DSM
+FLEXI_RX/DSM/SDA2
 Text GLabel 4800 3350 0    60   Input ~ 0
-FLEXI_TX
+FLEXI_TX/SCL2
 $Comp
 L GND #PWR02
 U 1 1 56997382

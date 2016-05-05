@@ -325,11 +325,11 @@ ADC3
 Text GLabel 9050 5500 2    60   Input ~ 0
 SBUS_INV
 Text GLabel 9050 3300 2    60   Input ~ 0
-FLEXI_TX/SCL
+FLEXI_TX/SCL2
 Text GLabel 9050 3000 2    60   Input ~ 0
 MAIN_RX/DSM
 Text GLabel 9050 3400 2    60   Input ~ 0
-FLEXI_RX/SDA/DSM
+FLEXI_RX/DSM/SDA2
 Text GLabel 9050 3100 2    60   Input ~ 0
 SCL
 Text GLabel 2050 5300 0    60   Input ~ 0
@@ -342,7 +342,7 @@ Text GLabel 2050 5600 0    60   Input ~ 0
 SWCLK
 Text GLabel 1150 2600 0    60   Input ~ 0
 /RESET
-Text GLabel 9000 6050 2    60   Input ~ 0
+Text GLabel 9050 4500 2    60   Input ~ 0
 MCU_BUZZER
 Text GLabel 9050 3800 2    60   Input ~ 0
 TIM12_CH2
