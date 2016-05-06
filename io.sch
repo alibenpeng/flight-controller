@@ -489,13 +489,13 @@ F 3 "" H 5000 4200 50  0000 C CNN
 	1    5000 4200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3550 4900 0    60   Input ~ 0
-TIM8_CH4
-Text GLabel 3550 4800 0    60   Input ~ 0
-TIM5_CH3
-Text GLabel 3550 4700 0    60   Input ~ 0
-TIM5_CH2
 Text GLabel 3550 4600 0    60   Input ~ 0
+TIM8_CH4
+Text GLabel 3550 4700 0    60   Input ~ 0
+TIM5_CH3
+Text GLabel 3550 4800 0    60   Input ~ 0
+TIM5_CH2
+Text GLabel 3550 4900 0    60   Input ~ 0
 TIM5_CH1
 Text GLabel 3550 4200 0    60   Input ~ 0
 VIDEO_IN
@@ -503,17 +503,17 @@ Text GLabel 4500 4200 0    60   Input ~ 0
 VIDEO_OUT
 Text GLabel 3550 4500 0    60   Input ~ 0
 TIM12_CH1/PPM
-Text GLabel 5000 4400 2    60   Input ~ 0
-TIM8_CH2/FRSKY_RSSI/DSM
-Text GLabel 3550 4400 0    60   Input ~ 0
-TIM12_CH2
-Text GLabel 4500 4400 0    60   Input ~ 0
-TIM8_CH1
-Text GLabel 3550 4300 0    60   Input ~ 0
-TIM8_CH3
-Text GLabel 4500 4300 0    60   Input ~ 0
-TIM5_CH4
 Text GLabel 5000 4300 2    60   Input ~ 0
+TIM8_CH2/FRSKY_RSSI/DSM
+Text GLabel 3550 4300 0    60   Input ~ 0
+TIM12_CH2
+Text GLabel 4500 4300 0    60   Input ~ 0
+TIM8_CH1
+Text GLabel 3550 4400 0    60   Input ~ 0
+TIM8_CH3
+Text GLabel 4500 4400 0    60   Input ~ 0
+TIM5_CH4
+Text GLabel 5000 4400 2    60   Input ~ 0
 ADC3
 $Comp
 L CP_Small C4
