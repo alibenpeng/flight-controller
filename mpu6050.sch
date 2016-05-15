@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -173,4 +173,7 @@ Wire Wire Line
 Connection ~ 5250 3750
 Text GLabel 5800 3550 0    60   Input ~ 0
 IMU_INT
+Wire Wire Line
+	5800 3250 5450 3250
+Connection ~ 5450 3250
 $EndSCHEMATC
